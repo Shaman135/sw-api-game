@@ -130,7 +130,7 @@ const Game = () => {
         </Grid>
       ))}
       <Grid item xs={12}>
-        <Button variant="outlined" onClick={nextDuel}>Roll Again</Button>
+        <Button data-testid="roll-btn" variant="outlined" onClick={nextDuel}>Roll Again</Button>
       </Grid>
     </Grid>
   );

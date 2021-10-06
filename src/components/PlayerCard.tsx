@@ -20,6 +20,7 @@ const PlayerCard = ({ player, type, loading }: PlayerCardProps) => {
   return (
     <Card
       sx={{ bgcolor: player.winner ? "success.light" : "background.paper" }}
+      data-testid="player-card"
     >
       <CardContent sx={{ position: "relative" }}>
         <Backdrop
